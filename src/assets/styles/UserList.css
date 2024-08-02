@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  select,
+  input,
+  button {
+    margin-right: 10px;
+  }
+  
+  .container{
+    width: 1200px;
+    margin: auto;
+  }
+
+  .filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .filterOption{
+    padding:8px;
+    border-radius: 5px;
+  }
+
+  .FiFilter{
+    color: #a01a1a;
+    margin-right: 16px;
+  }
+
+  .updown{
+    cursor: pointer;
+  }
+
+  .pagination{
+    width: 350px;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+
+  .pagination button{
+    background-color: #fff;
+    border: 1px solid;
+    width: 42px;
+    border-radius: 5px;
+    height: 34px;
+    cursor: pointer;
+  }
